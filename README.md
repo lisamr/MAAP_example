@@ -5,7 +5,7 @@ You have code you want to run on NASA MAAP. You can run it interactively on the 
 ## Steps
 1. **Develop code** 
 
-    I wrote a python function that makes the statment, "I love ____ and I hate ____", and write it to a text file. When you submit a job, you fill in the two blanks. This example is a template demonstrating how parameters can be included and how to create outputs. 
+    I wrote a python function that makes the statment, "I love ____ and I hate ____", and writes it to a text file. When you submit a job, you fill in the two blanks. This example is a template demonstrating how parameters can be included and how to create outputs. 
     
     Note that `runDummyExample.py` and `dummyExample.py` are very similar except that the former has extra bits in there to parse arguments that come in from the MAAP API package. I could just put all the code from `dummyExample.py` into `runDummyExample.py`, but I think this better represents how I'd create source code in other scripts and have a designated run script. 
 

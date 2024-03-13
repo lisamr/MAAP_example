@@ -2,7 +2,7 @@ algorithm_name: dummy-example
 algorithm_description: "Run simple script to demonstrate how to submit job with inputs and get outputs inside MAAP."
 algorithm_version: main # 1.0.0 # can be tag or branch
 environment: ubuntu
-repository_url: https://github.com/MAAP-Project/s1-example.git
+repository_url: https://github.com/lisamr/MAAP_example.git
 docker_container_url: "mas.maap-project.org/root/maap-workspaces/base_images/vanilla:v3.1.3"
 queue: "maap-dps-worker-32gb"
 run_command: "MAAP-example/run.sh" # "fireatlas_nrt/run_dps_v2.sh"
