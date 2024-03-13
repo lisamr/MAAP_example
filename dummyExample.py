@@ -20,4 +20,4 @@ def run_example(love_object: str, hate_object: str):
     print(string)
 
 if __name__ == "__main__":
-    run_example('my cat Lobster', 'pickels')
+    run_example('my cat Lobster', 'pickles')

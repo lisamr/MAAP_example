@@ -1,5 +1,5 @@
-# dummy example demonstrating how to submit MAAP job externally
-# code requirements: takes inputs, applies code, and creates outputs that will be stored in MAAP's S3 bucket
+# code called in the run.sh script
+# runs code in dummyExample.py with arguments passed in from the run.sh script
 
 import os
 import argparse
